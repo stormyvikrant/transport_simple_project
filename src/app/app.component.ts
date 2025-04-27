@@ -53,8 +53,6 @@ export class AppComponent {
         continued,
       });
 
-      console.log('level trip', this.trips);
-
       // Reset the form
       this.newTrip = { start: '', end: '' };
     }
